@@ -6,7 +6,7 @@
 #         """
 
 class Solution(object):
-    def isPalindrome(self, x: int) -> bool:
+    def isPalindrome(self, x):
         x = str(x)
         if (x == x[::-1]):
             return True
@@ -61,7 +61,3 @@ class Solution(object):
     #         return False
 
 
-if __name__ == '__main__':
-    # begin
-    s = Solution()
-    print s.isPalindrome(1001)
